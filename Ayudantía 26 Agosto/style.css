@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    max-width: 1000px;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+.header-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box1{
+    background-color: green;
+width: 200px;
+height: 200px;
+align-self: flex-end;
+
+}
+
+.box2{
+    background-color: red;
+width: 200px;
+height: 100px;
+}
+
+.box3{
+    background-color: blue;
+width: 50px;
+height: 400px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav{
+    color:white;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+header a{
+    padding: 5px;
+    background-color: blue;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header a:hover{
+    background-color: green;
+    color:brown;
+}
+
+.card{
+    display: flex;
+    border: 2px solid black;
+    margin:20px;
+    width: 400px;
+    padding: 25px;
+    gap:15px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.options img{
+    width: 25px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.editar{
+    color:red;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+
