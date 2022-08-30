@@ -1,0 +1,149 @@
+.caja1{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    position:fixed;
+    top:100px
+}
+.caja2{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+.caja3{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    
+}
+
+
+/* .container{
+    width: 800px;
+    height: 800px;
+    background-color: grey;
+    margin-top:100px;
+    position: relative;
+} */
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    left:100px;
+    top:50px;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom:40px;
+    right:40px;
+    z-index:-100;
+}
+
+.tooltip-container{
+    position: relative;
+}
+
+.tooltip{
+    width: 300px;
+    border: 2px solid black;
+    padding: 15px;
+    position: absolute;
+    top:35px;
+    left:300px;
+    visibility: hidden;
+    z-index: 100;
+    background-color: grey;
+}
+
+.tooltip-container:hover .tooltip{
+    visibility: visible;
+}
+
+.card{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.card .header{
+    background-color: blue;
+    height: 150px;
+    position: relative;
+}
+
+.card img{
+    position: absolute;
+    top:100px;
+    left:50px;
+}
+
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+}
+.row {
+    /* TODO - what should go here? */
+}
+
+.container .row{
+    display: flex;
+    gap:15px;
+}
+
+.container .row .main{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+/* #advertisement{
+    margin-top: 15px;
+} */
+
+
+
