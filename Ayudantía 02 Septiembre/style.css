@@ -1,0 +1,12 @@
+.ampolleta{
+    padding: 20p;
+    border: 1px solid black;
+    background-color: yellow;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color:yellow
+}
