@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <label>¿Cuantas cajas quieres agregar?</label>
+    <input type="number" id="numberOfBoxes">
+    <button onclick="agregarCajas()" >AGREGAR CAJAS</button>
+
+    <div class="smart-container">
+
+    </div>
+
+    <label>Agregar caja de este color</label>
+    <input type="color" id="boxColor">
+    <button onclick="agregarCajaDeColor()">AGREGAR CAJA</button>
+    <button onclick="appendCajaDeColor()">APPEND CAJA</button>
+
+    <div class="color-container" id="color-container">
+
+    </div>
+    
+</body>
+</html>
