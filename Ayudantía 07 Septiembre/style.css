@@ -1,0 +1,32 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* .card p{
+    visibility: hidden;
+}
+
+.card:hover p{
+    visibility: visible;
+} */
+
+.visible{
+    visibility: visible;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.animal-image{
+    width: 400px;
+    height: 400px;
+    background-image: url("./img/perro.PNG");
+    background-repeat: no-repeat;
+}
+
+.animal-image:hover{
+    background-image: url("./img/gato.PNG");
+}

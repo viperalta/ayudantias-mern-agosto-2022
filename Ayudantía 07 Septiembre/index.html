@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- 1. Aumentar un contador y mostrarlo en un elemento -->
+
+    <button onclick="aumentarContador()" >AUMENTAR CONTADOR</button>
+    <div class="contador"></div>
+
+    <!-- 2. Lanzar una alerta con el valor de un input de texto -->
+
+    <label>ALERTA CON CONTENIDO DE UN INPUT</label>
+    <input type="text" id="alert-input">
+    <button onclick="lanzarAlertaInput()">LANZAR ALERTA DEL INPUT</button>
+<br>
+    <!-- 3. Lanzar una alerta con el valor de un select que cambia -->
+
+    <label>ALERTA CON CAMBIO EN SELECT</label>
+    <select id="select-alert" onchange="changeSelectAlert()" >
+        <option value="Perros">Perros</option>
+        <option value="Gatos">Gatos</option>
+        <option value="Tortugas">Tortugas</option>
+    </select>
+
+    <!-- 4. Lanzar alerta despues de 10 segundos. BONUS: Crear cuenta regresiva de 10 segundos. -->
+
+    <div class="timer"></div>
+
+    <!-- 5. Cambiar un texto segun el cambio en un select -->´
+
+    <h2 id="select-text"></h2>
+    <select id="select-value" onchange="changeSelect(this)">
+        <option value="Coding">Coding</option>
+        <option value="Dojo">Dojo</option>
+        <option value="Ayudantia">Ayudantia</option>
+    </select>
+
+    <!-- 6. Borrar un elemento en el que se le hace click -->
+
+    <div id="box" class="box" onclick="eliminarCaja()"></div>
+
+    <!-- 7. Mostrar info extra al hacer hover en un elemento -->
+
+    <div class="card" id="card" onmouseenter="showP()" onmouseleave="hideP()">
+        <h1>SI ME HACES HOVER APARECERÁ EL ELEMENTO P</h1>
+        <p class="invisible" id="p-element">ESTE ELEMENTO P COMIENZA OCULTO</p>
+    </div>
+
+    <!-- 8. Cambiar src de image al hacer hover -->
+
+    <div class="animal-image"></div>
+
+    <!-- 9. Reproducir un audio al hacer click en un elemento -->
+
+    <!-- 10. Slider de imagenes -->
+
+    
+</body>
+</html>
