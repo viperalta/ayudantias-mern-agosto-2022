@@ -1,0 +1,14 @@
+h1{
+    color:green;
+}
+
+.pokemon-card{
+    border: 2px solid red;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+    padding: 15px;
+}
