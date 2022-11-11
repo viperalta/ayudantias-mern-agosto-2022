@@ -1,0 +1,23 @@
+server {
+  listen 80 default_server;
+  listen [::]:80 default_server;
+  server_name  simple-auth;
+  root /home/ubuntu/simple-auth/client/build;
+  index index.html;
+
+  location /api {
+    proxy_pass http://localhost:8000;
+    proxy_redirect off;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+  }
+
+  location / {
+    try_files $uri $uri/ =404;
+  }
+
+  error_page 404 /index.html;
+}
+
+pm2 start server.js --name simple-auth
