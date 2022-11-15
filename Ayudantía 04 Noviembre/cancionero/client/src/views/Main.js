@@ -43,6 +43,7 @@ const Main = () => {
                         <th scope="col">Nombre</th>
                         <th scope="col">Artista</th>
                         <th scope="col">Compositores</th>
+                        <th scope="col">Likes</th>
                         <th scope="col">Acciones</th>
                     </tr>
                 </thead>
@@ -52,6 +53,7 @@ const Main = () => {
                         <th scope="row"> <Link to={`/cancion/${cancion._id}`}>{cancion.nombre} </Link></th>
                         <td> {cancion.artista} </td>
                         <td> {cancion.compositores} </td>
+                        <td> {cancion.likes} </td>
                         <td> <button className='btn btn-warning' onClick={()=>navigate(`/cancion/update/${cancion._id}`)}>UPDATE</button></td>
                     </tr>
                     )}

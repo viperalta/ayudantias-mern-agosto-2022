@@ -14,6 +14,10 @@ const CancionSchema = new mongoose.Schema({
     compositores:{
         type:Array,
         required:[true,"Es necesario agregar un compositor"]
+    },
+    likes:{
+        type:Number,
+        default: 0
     }
     
 },
